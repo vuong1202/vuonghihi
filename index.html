@@ -19,10 +19,15 @@ canvas {
   width: 100%;
   height: 100%;
 }
+h1{
+  color: red;
+}
   </style>
  </HEAD>
  <BODY>
+  <h1>Mỡ</h1>
   <div class="box">
+   
     <canvas id="pinkboard"></canvas>
   </div>
 <script>
@@ -205,7 +210,7 @@ var ParticlePool = (function() {
     }
     context.closePath();
     // create the fill
-    context.fillStyle = '#f50b02';
+    context.fillStyle = '#f50202';
     context.fill();
     // create the image
     var image = new Image();
